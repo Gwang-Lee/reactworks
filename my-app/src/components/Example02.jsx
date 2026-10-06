@@ -7,7 +7,7 @@ const Example02 = () => {
             <h2>리스트 렌더링</h2>
             <ul className="list">
                 {items.map((item, index) => (
-                    // ket 속성 반드시 입력
+                    // ket 속성 반드시 입력npm
                     <li key={index}>{item}</li>
                 ))}
             </ul>
