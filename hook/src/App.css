@@ -1,7 +1,27 @@
-.app {
-  margin-top: 20px;
+.sign-in {
+  width: 500px;
+  margin: 30px auto;
 }
-ul {
+.sign-in h2{
+  margin-bottom: 30px;
+}
+.sign-in ul{
   list-style: none;
   padding-left: 0;
+}
+.sign-in ul li{
+  margin: 20px;
+}
+.sign-in ul li:last-child{
+  text-align: center; /* 버튼 */
+}
+.sign-in ul li input[type="text"],
+.sign-in ul li input[type="password"] {
+  padding: 5px;
+  width: 200px;
+}
+.sign-in ul li button{
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
 }
